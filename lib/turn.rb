@@ -29,6 +29,7 @@ def turn(board)
   puts pos
   if valid_move?(board,pos)
     move(board,pos,"X")
+    display_board(board)
   else
     until valid_move?(board,pos)
       puts "Please stop fucking up"
