@@ -27,4 +27,6 @@ def turn(board)
   puts "Please enter 1-9:"
   pos=pos_to_integer(gets.strip)
   puts pos
+  if valid_move(board,pos)
+    
 end
