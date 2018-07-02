@@ -35,4 +35,6 @@ def turn(board)
       pos=pos_to_integer(gets.strip)
     end
   end
+display_board(board)
+
 end
