@@ -33,7 +33,9 @@ def turn(board)
     until valid_move?(board,pos)
       puts "Please stop fucking up"
       pos=pos_to_integer(gets.strip)
-      
+        if valid_move?(board,pos)
+          move(board,pos,"X")
+        end
     end
   end
 display_board(board)
