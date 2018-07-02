@@ -28,7 +28,7 @@ def turn(board)
   pos=pos_to_integer(gets.strip)
   puts pos
   if valid_move?(board,pos)
-    move(board,pos,X)
+    move(board,pos,"X")
   else
     until valid_move?(board,pos)
       puts "Please stop fucking up"
