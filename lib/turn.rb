@@ -22,3 +22,9 @@ end
 def pos_to_integer(pos)
   return pos.to_i-1
 end
+
+def turn(board)
+  puts "Please enter 1-9:"
+  pos=pos_to_integer(gets.strip)
+  puts pos
+end
